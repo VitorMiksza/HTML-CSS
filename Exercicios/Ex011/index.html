@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir em varios dispositivos diferentes</p>
+
+    <picture>
+
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png"> 
+        <img src="Imagens/foto-g.png" alt="Imagem flexivel">
+
+    </picture>
+
+    <h1>Musicas</h1>
+    <ul><li> 
+
+        <audio preload="metadata" autoplay controls>
+        <source src="media/ice.mp3" type="audio/mp3">
+
+    </audio>
+
+    </li></ul>
+
+</body>
+</html>

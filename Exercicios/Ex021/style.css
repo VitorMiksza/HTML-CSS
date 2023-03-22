@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body{
+  
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    
+    text-decoration: none;
+
+
+}
+
+a:visited{
+
+    color: rgb(255, 0, 0);
+
+    
+}
+a:hover{
+
+    text-decoration: underline;
+
+}
+
+h1{
+
+
+
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    
+    background-color: aquamarine;
+    height:300px ;
+    width: 800px;
+
+    border-width: 10px; 
+    border-style: groove;
+    border-color: darkslateblue;
+
+  
+
+
+
+
+}
