@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe em aba</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#quadro{
+
+            border: 5px solid black;
+            display: block;
+            margin: auto;
+
+            width: 95vw;
+            height: 500px;
+            
+        }
+
+        quadro{
+            
+            
+         
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>
+        Iframe em aba interna
+    </h1>
+
+    <p>
+        Para colocar um iframe em aba basta adicionar um iframe com nome (parecido com uma ID) e definir um target no iframe direcionado a este nome
+    </p>
+
+    <h2>Exemplos</h2>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id asperiores rerum architecto recusandae, vero ducimus tempora ea ab quod adipisci laboriosam quia eum, eligendi possimus blanditiis, tenetur iste aspernatur a!</p>
+
+    <p>
+        <a href="/Desafios/Desafio01/index.html"       target="quadro"> Primeiro</a>
+        <a href="/Desafios/Desafio02/index.html"       target="quadro"> Segundo</a>
+        <a href="/Desafios/Desafio10/aindroid.html" target="quadro">Terceiro</a>
+    </p>
+
+
+    <p><iframe id="quadro" name="quadro" src="" frameborder="0"></iframe></p>
+    
+</body>
+</html>
