@@ -1,23 +1,77 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Righteous&display=swap');
+
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Righteous', cursive; */
+  
+body{
+    max-width: 800px;
+    max-height: 1000px;
+    background-color: rgb(189, 189, 189);
+
+    display: block;
+    text-align: justify;
+    margin-top: 15px;
+    margin-left: 20vw;
 
 }
 
-/* 
+
+header{
+    
+    background-color: red;
+
+
+}
+
+main{
+    background-color: blue;
+
+}
+
+footer{
+    background-color: green;
+
+}
+
 h1{
+    text-indent: 15px;
+    font-family: 'Righteous', cursive;
+
+
 
 }
 
 h2{
 
+    font-family: 'Righteous', cursive;
+
 }
 
 h3{
 
+    font-family: 'Righteous', cursive;
+
 }
 
 p{
+    padding: 8px;
+    font-family: 'Oswald', sans-serif;
 
 }
- */
+ 
+iframe{
+    margin-left: 70px;
+    width: 650px;
+    height: 500px;
+
+    background-color: aliceblue;
+}
