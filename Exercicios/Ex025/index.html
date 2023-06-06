@@ -16,15 +16,24 @@
 
     <h1>Meu primeiro formulário</h1>
 
-    <form action="">
+    <form action="cadastro.php" autocomplete="on">
+
+        <!-- Action(Executa uma ação, nesse caso ele envia as informações para o cadastro.php após o usuário apertar o submit)-->
+
+        <!-- autocmplete on/off ativa ou desativa o autocomplete... Por padrão ele vem ON -->
 
         <p>
-            Nome: <input type="text" name="nome" id="nome">
-        
+            <label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome">
+            <!-- NAME = PHP -->
+            <!-- ID = JAVASCRIPT -->
         </p>
 
         <p>
-                Sobrenome: <input type="text" name="sobrenome" id="sobrenome">
+            <label for="isobrenome">Sobrenome: </label>
+                <!-- label (etiqueta) é obrigatório colocar por auxilia os mecanismos de busca e os demais programas de back-end...
+                Cria a linkagem entre o texto de informações e a caixinha de respostas  -->
+            <input type="text" name="sobrenome" id="isobrenome">
 
         </p>
 
