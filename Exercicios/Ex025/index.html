@@ -16,11 +16,19 @@
 
     <h1>Meu primeiro formulário</h1>
 
-    <form action="cadastro.php" autocomplete="on">
+    <form action="cadastro.php" autocomplete="on" method="post">
 
         <!-- Action(Executa uma ação, nesse caso ele envia as informações para o cadastro.php após o usuário apertar o submit)-->
 
         <!-- autocmplete on/off ativa ou desativa o autocomplete... Por padrão ele vem ON -->
+
+        <!-- method get/post Usado para mostrar ou não a informação inserida no link
+        Exemplo:Get =  https//google.com-Q:MARIA DE LOURDES (Possui um limite de 3 mil bits (+/- 3.000 letras))
+        Exemplo:Post = https//google.com (Querry escondido do link) 
+    
+        Get: Usar apenas para dados não sensiveis como buscas e nomes (Não envia fotos ou mídias))
+        ------------------------------------------------------------------------
+        Post: Usar para dados sensiveis como CPF e Endereços (Pode conter mais de 3 mil bits e arquivos de mídia)-->
 
         <p>
             <label for="inome">Nome:</label> 
