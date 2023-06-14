@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.pho" method="get">
+
+        <p>
+            <label for="iusu">Usuário</label> 
+        
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15">
+
+            <!-- required (para informar que este campo0 é obrigatório) -->
+            <!-- min/max lenght (Para determinar a quantidade de caracteres a serem escritos pelo usuário) -->
+        </p>
+
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required minlength="8">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Linpar">
+        </p>
+
+
+    </form>
+</body>
+</html>
