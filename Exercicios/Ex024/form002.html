@@ -11,15 +11,18 @@
         <p>
             <label for="iusu">Usuário</label> 
         
-            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15">
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="25" placeholder="Ex:vtr56" autocomplete="name">
 
             <!-- required (para informar que este campo0 é obrigatório) -->
             <!-- min/max lenght (Para determinar a quantidade de caracteres a serem escritos pelo usuário) -->
+            <!-- size Determina o tamanho da caixa de dialogo que será feita pelo navegados (Não influencia o conteudo)-->
+            <!-- Placeholder: colocoa um placehodler -->
+            <!-- Autocomplete no imput gerencia as opções do imput -->
         </p>
 
         <p>
             <label for="isen">Senha</label>
-            <input type="password" name="sen" id="isen" required minlength="8">
+            <input type="password" name="sen" id="isen" required minlength="8" autocomplete="current-password">
         </p>
 
         <p>
