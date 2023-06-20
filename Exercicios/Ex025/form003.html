@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+</head>
+<body>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="inome">Nome do aluno</label>
+            <input type="text" name="iname" id="iname" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="imedia" id="imedia" min="0" max="10" step="0.5" placeholder="0 á 10">
+        </p>
+
+        <p>
+            <label for="imes">Periodo</label>
+            <input type="month" name="imes" id="imes" value="2020-07">
+        </p>
+
+        <p>
+            <label for="idia">Dia</label>
+            <input type="date" name="idia" id="idia" value="2020-07-14">
+        </p>
+        
+        <p>
+            <label for="ihora">Hora da prova</label>
+            <input type="time" name="ihora" id="ihora">
+        </p>
+        
+        <p>
+            <input type="submit">Enviar
+            <input type="reset">Limpar
+    </p>
+
+
+    <!-- steps: Determina a passada -->
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
